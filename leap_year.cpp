@@ -11,7 +11,6 @@ int main() {
         year = year / 10;
         count++;
     }
-
     if (count == 4 && (year % 4 == 0 || year % 400 == 0)) {
         cout << "Leap year! 111\n";
     }
