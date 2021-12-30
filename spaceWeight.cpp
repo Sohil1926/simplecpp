@@ -33,6 +33,9 @@ int main() {
 	case 7:
 		cout << "Your weight on Neptune is " << earth_weight * 1.19 << " pounds";
 		break;
+	default:
+    		cout << "Invalid\n";
+    		break;
 	}
 
 }
